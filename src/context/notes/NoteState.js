@@ -3,7 +3,7 @@ import NoteContext from "./noteContext";
 import { useState } from 'react';
 const NoteState = (props) => {
 
-    const host = "http://localhost:5000";
+    const host = "https://mern-project-backend-omega.vercel.app/";
     const initialNotes = [];
 
     const addNoteAlert = () => {
