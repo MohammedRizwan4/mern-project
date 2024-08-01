@@ -32,7 +32,7 @@ function App() {
           <Alert alert={alert} />
           <div className="container">
             <Routes>
-              <Route path="/" element={<Home showAlert={showAlert}/>}></Route>
+              <Route path="/" element={<Home showAlert={showAlert} />}></Route>
               <Route path="/login" element={<Login showAlert={showAlert} />}></Route>
               <Route path="/signup" element={<Register showAlert={showAlert} />}></Route>
               <Route path="/about" element={<About />}></Route>
